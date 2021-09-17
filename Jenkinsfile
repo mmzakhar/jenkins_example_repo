@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'ubuntu' } }
+    agent { docker { image 'intel/oneapi-hpckit' } }
     stages {
         stage('build') {
             steps {
